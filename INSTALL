@@ -1,0 +1,17 @@
+BirthdayReminders is distributed as source code only and, as such,
+needs to be compiled before it can be used. Compilation requires the
+OS X build tools, which are installed with the Xcode package available
+free on your OS X installation CD or www.apple.com. If you have not
+yet installed the OS X development tools, do so now.
+
+This software is built and installed in the same manner generally
+applicable to most GNU Build System projects. Compile the program by
+running:
+
+    ./configure --prefix=/usr/local && make
+
+Then, install it by executing:
+
+    sudo make install
+
+See make(1) for more information.

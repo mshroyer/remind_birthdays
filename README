@@ -1,0 +1,45 @@
+This directory contains the source code of remind_birthdays, a simple
+console application that uses the AddressBook Cocoa API, available in
+OS X 10.2 or later, to generate Remind calendar entries for the
+birthdays of contacts in the user's OS X address book.
+
+remind_birthdays is written by Mark Shroyer. Please send any bug
+reports to mark@markshroyer.com. Check for the latest version on the
+Web at:
+
+http://markshroyer.com/
+
+Remind is a GPL-licensed, CLI calendaring program maintained by
+Roaring Penguin Software, Inc., at:
+
+http://www.roaringpenguin.com/en/penguin/openSourceProducts/remind
+
+
+LICENSE
+-------
+
+remind_birthdays is free software provided under an ISC/BSD-style
+license. See COPYING for details.
+
+
+SYSTEM REQUIREMENTS
+-------------------
+
+Requires OS X 10.2 or later. However, it hasn't been tested on
+anything other than 10.4, so please let me know if you find any bugs.
+
+
+INSTALLATION
+------------
+
+This program is compiled and installed using the typical ./configure;
+make; make install sequence. See the file INSTALL for more information.
+
+
+USAGE
+-----
+
+Just run the program and pipe its output to a Remind script somewhere.
+There are a couple command-line options available; see
+remind_birthdays(1) for details.
+

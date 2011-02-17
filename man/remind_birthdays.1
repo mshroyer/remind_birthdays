@@ -1,0 +1,40 @@
+.TH remind_birthdays 1 "March 27, 2007" "version 1.0.0" "USER COMMANDS"
+.SH NAME
+.B remind_birthdays
+\- Convert OS X Address Book birthdays to Remind calendar entries
+.SH SYNOPSIS
+.B remind_birthdays
+.RI [ options ]
+
+.SH DESCRIPTION
+\fBremind_birthdays\fR is a command-line OS X program to dump the
+birthdays in your Address Book into a format that can be read by the
+Unix calendaring program, Remind. \fBremind_birthdays\fR takes only a
+few command-line options, and sends its output directly to stdout.
+
+.SH OPTIONS
+
+.TP
+.B -a
+Show people's ages on each calendar birthday. This is the default
+behavior.
+
+.TP
+.B -A
+Opposite of \fB-a\fR; suppress the display of ages on calendar
+birthdays.
+
+.TP
+.B -r \fBN\fR
+Remind of birthdays up to \fBN\fR days in advance. The default is 0.
+
+.SH AUTHOR
+Written by Mark Shroyer <mark@markshroyer.com>. Check for the latest
+verison of \fBremind_birthdays\fR at http://markshroyer.com/ .
+
+.SH BUGS
+I don't have any pre-10.4 machines available at the time of this
+writing, so this program has not been tested on OS X 10.3 or 10.2. If
+you find that something doesn't work, please send any relevant bug
+reports (or better yet, patches) to mark@markshroyer.com.
+
